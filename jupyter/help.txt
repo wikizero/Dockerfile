@@ -1,0 +1,3 @@
+Q: how to use it?
+docker build -t jupyter:v1  -f Dockerfile .
+docker run -it -d --name=jupyter -p 8089:8888 -v /opt/documents/:/opt/documents/ jupyter:v2

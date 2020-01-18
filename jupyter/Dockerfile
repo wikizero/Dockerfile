@@ -20,6 +20,3 @@ expose 8888
 RUN mkdir -p /opt/documents
 # startup jupyter, password: 123admin
 CMD jupyter lab --ip=* --port=8888 --no-browser --LabApp.password='sha1:7cd6dcae0200:909fafc14ec0cd7d24787ec5eb9f440dc7fcb38c' --notebook-dir=/opt/documents --allow-root
-
-
-
