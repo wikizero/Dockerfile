@@ -1,0 +1,10 @@
+jupyterlab
+pandas
+flask
+requests
+bs4
+Faker
+html5lib
+lxml
+xlrd
+xlwt
